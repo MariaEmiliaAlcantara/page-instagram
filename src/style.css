@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto',
+    sans-serif;;
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  background-color: #FAFAFA;
+}
+
+.img-phone {
+height: 100vh;
+width: 50vw;
+display: flex;
+justify-content:end;
+align-items: center;
+}
+
+.img-phone-element {
+  height: 100vh;
+  margin-right: -10vw;
+}
+
+
+.infos {
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.first-box-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+  background-color: white;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 1px;
+  width: 25vw;
+  border: 1px solid #dbdbdb;
+}
+
+.logo {
+  width: 10vw;
+}
+
+.profile {
+  height: 15vh;
+  width: 15vh;
+  border-radius: 50%;
+}
+.continue-button {
+  background-color: #0095F6;
+  color: white;
+  width: 18vw;
+  height: 5vh;
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
+  font-size: calc(0.3rem + 0.7vw);
+  cursor: pointer;
+}
+
+.remove-button {
+  background-color: transparent;
+  border: none;
+  color: #0095f6;
+  font-weight: bold;
+  font-size: calc(0.3rem + 0.7vw);
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.second-box-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+  background-color: white;
+  padding: 20px;
+  border-radius: 1px;
+  width: 25vw;
+  border: 1px solid #dbdbdb;
+}
+
+.not-you {
+  color: #A5A4A6;
+  font-size: calc(0.3rem + 0.8vw)
+}
+
+.a-inside-p {
+  font-size: calc(0.3rem + 0.8vw);
+  color: #0095f6;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.third-box-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+}
+
+.get-the-app {
+  font-size: calc(0.3rem + 0.8vw);
+}
+
+.four-box-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+}
+
+#apple, #googleplay {
+  width: 10vw;
+}
